@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 257px;
+  height: 350px;
+
+  user-select: none;
+  -webkit-app-region: drag;
+
+  background-image: url("assets/Rectangle\ 4\ \(1\).png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  overflow: hidden;
+  background-color: transparent;
+
+}
+  input,
+button,
+.list,
+.title {
+    -webkit-app-region: no-drag;}
+
+.title {
+    display: flex;
+    padding: 0.25rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+  background-image: url("assets/Rectangle\ 6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+
+    color: var(--white, #FFF);
+    font-family: "Pixelify Sans";
+    font-size: 1rem;
+    font-style: 'Lemon Jelly';
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.list {
+   display: flex;
+   flex-direction: column;
+   width: 195px;
+   height: 246px;
+
+padding: 15px;
+
+  background-image: url("assets/Rectangle\ 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+    color: var(--white, #FFF);
+    font-family: "Pixelify Sans";
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin: 25px auto 0;
+}
+
+.input-area {
+    display: flex;
+    gap: 5px;
+}
+
+#task {
+    width: 130px;
+    height: 30px;
+
+    padding: 3px 5px;
+
+    font-family: "Pixelify Sans";
+    font-size: 0.7rem;
+
+    user-select: text;
+    border-radius: 8px;
+     border: 1px solid #8c4783;
+    
+}
+
+.input-area button {
+    width: 30px;
+    height: 30px;
+
+    padding: 0;
+
+    font-family: "Pixelify Sans";
+    font-size: 0.6rem;
+
+     border-radius: 8px;
+    border: 1px solid #8c4783;
+
+    
+     background-image: url("assets/d831e238dd8917db564ac3b7fda351ac.jpg");
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    
+}
+
+#list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2px 0;
+    margin-bottom: 3px;
+}
+
+#list li button {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    border: none;
+    
+    font-family: "Pixelify Sans";
+    font-size: 0.6rem;
+    cursor: pointer;
+
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #8c4783;
+  
+ 
+}
+
+.list > button {
+    
+    width: 170px;
+    height: 50px;
+
+
+    font-family: "Pixelify Sans";
+    font-size: 1rem;
+
+    cursor: pointer;
+
+     border-radius: 8px;
+    border: 1px solid #8c4783;
+
+    
+     background-image: url("assets/c523d104011f63c883c908d8449ab82e.jpg");
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+  color: var(--white, #FFF);
+    font-family: "Pixelify Sans";
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    
+} 
