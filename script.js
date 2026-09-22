@@ -38,7 +38,7 @@ function saveTasks(){
 }
 
 function loadTasks(){
-    let saved = localStorage.getItem("tasks");
+    let saved = localStorage.getItem("task");
     if (saved !== null){
         tasks = JSON.parse(saved);
     }
